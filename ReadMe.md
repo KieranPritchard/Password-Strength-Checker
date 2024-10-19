@@ -4,7 +4,7 @@
 
 This project is a password strength checker, its purpose is to test passwords to check how effective they are againist guessing/brute-force attacks.
 
-The reason for doing this project, is because i had recently finished doing an online cyber security course. One of the units of the course was about password security, mainly about how to passwords protect infomation. So, i decided in doing this as a project that is related to the infomation i learned about in the course
+The reason for doing this project, is because I had recently finished doing an online cyber security course. One of the units of the course was about password security, mainly about how to passwords protect infomation. So, i decided in doing this as a project that is related to the infomation I learned about in the course
 
 For this project I decided to use Python, although I want to make a website version of this project in the future. This is part of a few projects related to what I learned during the course.
 
