@@ -16,8 +16,6 @@ My second solution, which is the one in use. It works by using a for loop to che
 
 ## How to Use the Project
 
-## Badges
-
 ## Tests
 
 |Test Input|Test Output|
@@ -27,4 +25,7 @@ My second solution, which is the one in use. It works by using a for loop to che
 |Abc123|Password Strength: Moderate |
 |Abc123@| Password Strength: Strong|
 |A1b2c3d@| Password Strength: Strong|
+
 ## Licenses
+
+License is found in the "doc" folder.
