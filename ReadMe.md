@@ -21,9 +21,28 @@ During this project, there was only really one problem that was promient. This w
 
 My second solution, which is the one in use. It works by using a for loop to check if each character of the password is a number, upper/lower-case letter, or a symbol. Then it appends a number from 1-5 to a list, following this any duplicates are deleted then the final value of the list determines the strength of the password.
 
-## How to Install and Run the Project
-
 ## How to Use the Project
+
+1. **Clone The Repository:**
+   Download the project to your local device, this can be done with git.
+   
+2. **Run The Program:**
+   Navigate to the directory that the project is stored and run the script in the terminal.
+   
+3. **Input Your Password:**
+   When you run the program, you will see a prompt. Type in the password you want to check and hit enter.
+   
+4. **View The Password Strength:**
+   The program then analyses the password and display its strength.
+   Strength catagorys include:
+   * "Very Weak"
+   * "Weak"
+   * "Moderate"
+   * "Strong"
+   * "Very Strong"
+   
+5. **Check Again:**
+    in order to check another password, all you have to do is run the program again.
 
 ## Tests
 
