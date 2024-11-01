@@ -24,15 +24,19 @@ My second solution, which is the one in use. It works by using a for loop to che
 ## How to Use the Project
 
 1. **Clone The Repository:**
+
    Download the project to your local device, this can be done with git.
    
-2. **Run The Program:**
+3. **Run The Program:**
+
    Navigate to the directory that the project is stored and run the script in the terminal.
    
-3. **Input Your Password:**
+4. **Input Your Password:**
+
    When you run the program, you will see a prompt. Type in the password you want to check and hit enter.
    
-4. **View The Password Strength:**
+5. **View The Password Strength:**
+
    The program then analyses the password and display its strength.
    Strength catagorys include:
    * "Very Weak"
@@ -41,8 +45,9 @@ My second solution, which is the one in use. It works by using a for loop to che
    * "Strong"
    * "Very Strong"
    
-5. **Check Again:**
-    in order to check another password, all you have to do is run the program again.
+6. **Check Again:**
+
+   in order to check another password, all you have to do is run the program again.
 
 ## Tests
 
