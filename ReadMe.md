@@ -1,64 +1,48 @@
 # Password Strength Checker
 
 <div align="center">
-    <img alt="GitHub Created At" src="https://img.shields.io/github/created-at/KieranPritchard/Password-Strength-Checker">
-    <img alt="GitHub License" src="https://img.shields.io/github/license/KieranPritchard/Password-Strength-Checker">
-    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/KieranPritchard/Password-Strength-Checker">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KieranPritchard/Password-Strength-Checker">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KieranPritchard/Password-Strength-Checker">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KieranPritchard/Password-Strength-Checker">
+
+<img alt="GitHub Created At" src="https://img.shields.io/github/created-at/KieranPritchard/Password-Strength-Checker">
+
+<img alt="GitHub License" src="https://img.shields.io/github/license/KieranPritchard/Password-Strength-Checker">
+
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/KieranPritchard/Password-Strength-Checker">
+
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KieranPritchard/Password-Strength-Checker">
+
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KieranPritchard/Password-Strength-Checker">
+
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KieranPritchard/Password-Strength-Checker">
+
 </div>
-
 ## Project Description
-
-This project is a password strength checker, its purpose is to test passwords to check how effective they are againist guessing/brute-force attacks.
-
-The reason for doing this project, is because I had recently finished doing an online cyber security course. One of the units of the course was about password security, mainly about how to passwords protect infomation. So, i decided in doing this as a project that is related to the infomation I learned about in the course
-
-For this project I decided to use Python, although I want to make a website version of this project in the future. This is part of a few projects related to what I learned during the course.
-
-During this project, there was only really one problem that was promient. This was getting the password strength checked. My first solution was to set four varibles to true/false values which would be checked when a password was inputed however, this proved to be cumbersome. 
-
-My second solution, which is the one in use. It works by using a for loop to check if each character of the password is a number, upper/lower-case letter, or a symbol. Then it appends a number from 1-5 to a list, following this any duplicates are deleted then the final value of the list determines the strength of the password.
-
+### Objective
+To build a project that enforces learning from a cyber security course I had done, specifically password security. Apply cyber-security based knowledge to a project, and start coding more cyber security based projects. 
+### Technology and Tools Used
+* **Language:** Python.
+* **Tools:** Git, VS Code.
+### Challenges Faced
+Getting correct password strength values. My first solution was to set five variables to true/false based on what appears the password however, this proved to not work as expected. So then I came up with the solution I used in the code. it scans each letter in the password, then it chooses a value from one to five ands it to a list based on what type of character it is. The code then converts to a dictionary and then back to a list to remove duplicate answers.
+### Outcome
+I successfully created a project that applies cyber security knowledge, also allows me to show my experience and knowledge of password safety. I also got to apply and build my knowledge of python.
 ## How to Use the Project
-
 1. **Clone The Repository:**
-
-   Download the project to your local device, this can be done with git.
-   
-3. **Run The Program:**
-
-   Navigate to the directory that the project is stored and run the script in the terminal.
-   
-4. **Input Your Password:**
-
-   When you run the program, you will see a prompt. Type in the password you want to check and hit enter.
-   
-5. **View The Password Strength:**
-
-   The program then analyses the password and display its strength.
-   Strength catagorys include:
-   * "Very Weak"
-   * "Weak"
-   * "Moderate"
-   * "Strong"
-   * "Very Strong"
-   
-6. **Check Again:**
-
-   in order to check another password, all you have to do is run the program again.
-
-## Tests
-
-|Test Input|Test Output|
-|---|---|
-|abc| Password Strength: Very Weak |
-|abc123| Password Strength: Weak |
-|Abc123|Password Strength: Moderate |
-|Abc123@| Password Strength: Strong|
-|A1b2c3d@| Password Strength: Strong|
-
+	* Download the project to your local device, this can be done with git.
+2. **Run The Program:**
+	* Navigate to the directory that the project is stored. 
+	* Then run the script in the terminal.
+3. **Input Your Password:**
+	* When you run the program, you will see a prompt. 
+	* Type in the password you want to check and hit enter.
+4. **View The Password Strength:**
+	* The program then analyses the password and display its strength.
+	* Strength catagorys include:
+		* "Very Weak"
+		* "Weak"
+		* "Moderate"
+		* "Strong"
+		* "Very Strong"
+5. **Check Again:**
+	* In order to check another password, all you have to do is run the program again.
 ## Licenses
-
-License is found in the "doc" folder.
+License is found in the root of the repository.
