@@ -15,6 +15,7 @@
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KieranPritchard/Password-Strength-Checker">
 
 </div>
+
 ## Project Description
 ### Objective
 To build a project that enforces learning from a cyber security course I had done, specifically password security. Apply cyber-security based knowledge to a project, and start coding more cyber security based projects. 
